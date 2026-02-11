@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-06T18:20:48 IST" name="Suite" finished-at="2026-02-06T18:23:56 IST" duration-ms="187256">
+    <groups>
+    </groups>
+    <test started-at="2026-02-06T18:20:48 IST" name="ChromeTest" finished-at="2026-02-06T18:20:59 IST" duration-ms="10952">
+      <class name="Com.Parameter.TestCase">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Com.Parameter.TestCase@4b2bac3f]" started-at="2026-02-06T18:20:48 IST" name="setUp" finished-at="2026-02-06T18:20:56 IST" duration-ms="7432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://practicetestautomation.com/practice-test-login/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegister(java.lang.String,java.lang.String)[pri:0, instance:Com.Parameter.TestCase@4b2bac3f]" started-at="2026-02-06T18:20:56 IST" name="testRegister" finished-at="2026-02-06T18:20:59 IST" duration-ms="3357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Parameter.TestCase@4b2bac3f]" started-at="2026-02-06T18:20:59 IST" name="tearDown" finished-at="2026-02-06T18:20:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.Parameter.TestCase -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-02-06T18:20:48 IST" name="FirefoxTest" finished-at="2026-02-06T18:21:07 IST" duration-ms="18947">
+      <class name="Com.Parameter.TestCase">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Com.Parameter.TestCase@55141def]" started-at="2026-02-06T18:20:48 IST" name="setUp" finished-at="2026-02-06T18:21:05 IST" duration-ms="16548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://practicetestautomation.com/practice-test-login/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegister(java.lang.String,java.lang.String)[pri:0, instance:Com.Parameter.TestCase@55141def]" started-at="2026-02-06T18:21:05 IST" name="testRegister" finished-at="2026-02-06T18:21:07 IST" duration-ms="2264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Parameter.TestCase@55141def]" started-at="2026-02-06T18:21:07 IST" name="tearDown" finished-at="2026-02-06T18:21:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.Parameter.TestCase -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2026-02-06T18:20:48 IST" name="iebrowser" finished-at="2026-02-06T18:23:56 IST" duration-ms="187256">
+      <class name="Com.Parameter.TestCase">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Com.Parameter.TestCase@bcec361]" started-at="2026-02-06T18:20:48 IST" name="setUp" finished-at="2026-02-06T18:23:55 IST" duration-ms="187112" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://practicetestautomation.com/practice-test-login/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [5e155eeb-7836-4510-8f77-f4ddf64a54f0, get {url=https://practicetestautomation.com/practice-test-login/}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.ignoreprocessmatch: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:28019/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e155eeb-7836-4510-8f77-f4ddf64a54f0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [5e155eeb-7836-4510-8f77-f4ddf64a54f0, get {url=https://practicetestautomation.com/practice-test-login/}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.ignoreprocessmatch: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:28019/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e155eeb-7836-4510-8f77-f4ddf64a54f0
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:428)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:329)
+at Com.Parameter.TestCase.setUp(TestCase.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegister(java.lang.String,java.lang.String)[pri:0, instance:Com.Parameter.TestCase@bcec361]" started-at="2026-02-06T18:23:55 IST" name="testRegister" finished-at="2026-02-06T18:23:55 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [5e155eeb-7836-4510-8f77-f4ddf64a54f0, get {url=https://practicetestautomation.com/practice-test-login/}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.ignoreprocessmatch: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:28019/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e155eeb-7836-4510-8f77-f4ddf64a54f0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [5e155eeb-7836-4510-8f77-f4ddf64a54f0, get {url=https://practicetestautomation.com/practice-test-login/}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.ignoreprocessmatch: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:28019/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e155eeb-7836-4510-8f77-f4ddf64a54f0
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:428)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:329)
+at Com.Parameter.TestCase.setUp(TestCase.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Parameter.TestCase@bcec361]" started-at="2026-02-06T18:23:56 IST" name="tearDown" finished-at="2026-02-06T18:23:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.Parameter.TestCase -->
+    </test> <!-- iebrowser -->
+  </suite> <!-- Suite -->
+</testng-results>

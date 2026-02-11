@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="iebrowser(failed)">
+    <parameter name="password" value="Password123"/>
+    <parameter name="browser" value="ie"/>
+    <parameter name="url" value="https://practicetestautomation.com/practice-test-login/"/>
+    <parameter name="username" value="student"/>
+    <classes>
+      <class name="Com.Parameter.TestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testRegister"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Com.Parameter.TestCase -->
+    </classes>
+  </test> <!-- iebrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
